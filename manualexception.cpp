@@ -17,6 +17,6 @@ int main()
     }
     catch(...)
     {
-
+        cout << "default pengecualian dieksekusi" << endl;
     }
 }
