@@ -26,5 +26,10 @@ int main()
 
     }
     outfile.close();
+    
+    ifstream infile;
+
+    infile.open("contohfile.txt");
+
     return 0;
 }
