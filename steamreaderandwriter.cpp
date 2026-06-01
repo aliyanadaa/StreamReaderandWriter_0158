@@ -5,6 +5,6 @@ using namespace std;
 
 int main()
 {
-
+    string baris;
     return 0;
 }
