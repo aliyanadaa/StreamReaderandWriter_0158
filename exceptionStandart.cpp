@@ -6,6 +6,7 @@ using namespace std;
 
 int main()
 {
+    cout << "Awal program" << endl;
 
     return 0;
 }
