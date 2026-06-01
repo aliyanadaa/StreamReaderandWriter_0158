@@ -8,5 +8,14 @@ int main()
 {
     cout << "Awal program" << endl;
 
+    try
+    {
+
+    }
+    catch(exception& e)
+    {
+
+    }
+
     return 0;
 }
