@@ -13,7 +13,7 @@ int main()
     }
     catch(int a)
     {
-
+        cout << "Pengecualian akan di eksekusi" << endl;
     }
     catch(...)
     {
