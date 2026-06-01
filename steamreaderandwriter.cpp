@@ -23,6 +23,8 @@ int main()
             break;
 
         outfile << baris << endl;
+
     }
+    outfile.close();
     return 0;
 }
