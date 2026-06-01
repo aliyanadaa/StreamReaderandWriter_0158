@@ -26,10 +26,19 @@ int main()
 
     }
     outfile.close();
-    
+
     ifstream infile;
 
     infile.open("contohfile.txt");
 
+    if (infile.is_open())
+    {
+        while (getline(infile, baris))
+        {
+            cout << baris << endl;
+        }
+
+        infile.close();
+    }
     return 0;
 }
