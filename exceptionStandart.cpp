@@ -19,5 +19,7 @@ int main()
         cout << e.what() << endl;
     }
 
+    cout << "Baris program terakhir" << endl;
+
     return 0;
 }
